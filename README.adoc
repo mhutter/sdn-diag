@@ -1,0 +1,14 @@
+= "sdn-diag" container image
+
+Toolkit to troubleshoot cluster-network issues.
+
+Starts a simple webserver that listens on port `$PORT` (8080 by default) and returns a HTTP/1.1 200 OK for each request. Also contains some simple debugging tools (cURL, nmap, ...)
+
+== License
+
+MIT (see link:LICENSE[LICENSE])
+
+---
+> https://hutter.io/[Manuel Hutter] -
+> GitHub https://github.com/mhutter[@mhutter] -
+> Twitter https://twitter.com/dratir[@dratir]
